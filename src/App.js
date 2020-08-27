@@ -12,6 +12,7 @@ function App() {
    <>
    <CssBaseline/>
     <Route exact path="/" component={Home}/>
+    <Route exact path="/CoronaAssessment" component={Home}/>
     <Route path="/form" component={Form}/>
     <Route path="/contacts" component={Contacts}/>
    </>
